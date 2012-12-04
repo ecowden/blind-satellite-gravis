@@ -1,0 +1,17 @@
+{
+    "name": "blind-satellite",
+    "version": "3.0.0",
+    "engines": {
+        "node": "0.8.x"
+    },
+    "private": true,
+    "scripts": {
+        "start": "node app"
+    },
+    "dependencies": {
+        "express": "3.0.3",
+        "connect": "2.7.0",
+        "jade": "*",
+        "less-middleware": "*"
+    }
+}

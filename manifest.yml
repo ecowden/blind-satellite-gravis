@@ -1,0 +1,14 @@
+---
+applications:
+  .:
+    name: beta-bs
+    runtime: node08
+    framework:
+      name: node
+      info:
+        mem: 128M
+        description: Node.js Application
+        exec: 
+    url: ${name}.cowdene.${target-base}
+    mem: 128M
+    instances: 2
