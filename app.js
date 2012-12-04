@@ -5,7 +5,6 @@
 var express = require('express')
     , connect = require('connect')
     , routes = require('./routes')
-    , user = require('./routes/user')
     , http = require('http')
     , path = require('path');
 
@@ -15,7 +14,7 @@ app.configure(function () {
     app.set('port', process.env.PORT || 3000);
     app.use(connect.responseTime());
     app.use(express.compress());
-    app.use(express.favicon());
+    app.use(express.favicon(__dirname + '/public/favicon.ico'));
     app.use(express.logger('dev'));
     app.use(express.bodyParser());
     app.use(express.methodOverride());
