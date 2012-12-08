@@ -1,1 +1,0 @@
-"use strict";angular.module("myApp.directives",[]).directive("appVersion",["version",function(e){return function(t,n,r){n.text(e)}}])
