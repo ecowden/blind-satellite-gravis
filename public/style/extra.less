@@ -21,6 +21,7 @@ header {
 }
 
 .bigLogo {
+  display: block;
   height: 207px;
   margin-left: auto;
   margin-right: auto;
@@ -35,14 +36,15 @@ header {
   padding: 20px;
 
 }
-  .inverse {
-    background-color: @grayDarker;
-    color: @grayLight;
 
-    a {
-      color: @grayLighter;
-    }
+.inverse {
+  background-color: @grayDarker;
+  color: @grayLight;
+
+  a {
+    color: @grayLighter;
   }
+}
 
 .footer > .panel {
   background-color: black;
@@ -80,4 +82,11 @@ header {
 
 #copyright {
   font-size: 12px;
+}
+
+#about i {
+  font-size: 15px;
+  display: inline-block;
+  width: 15px;
+  text-align: center;
 }
