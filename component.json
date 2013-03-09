@@ -2,8 +2,9 @@
     "name": "blind-satellite",
     "version": "3.0.0",
     "dependencies": {
-        "angular-complete": "latest",
-        "bootstrap": "2.2.1",
-        "font-awesome": "latest"
+        "angular": "~1.0.5",
+        "angular-mocks": "~1.0.5",
+        "bootstrap-font-awesome": "https://github.com/ecowden/bootstrap-font-awesome.git",
+        "jquery": "~1.9.1"
     }
 }

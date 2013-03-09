@@ -5,7 +5,7 @@ build.xml
 
 .project
 .settings
-.idea
-component
+.idea/workspace.xml
 
+component
 node_modules
