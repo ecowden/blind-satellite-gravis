@@ -23,7 +23,7 @@ module.exports = function (grunt) {
                     {
                         cwd: "components/bootstrap-font-awesome/font/",
                         src: ['**'],
-                        dest: "public/built/font/",
+                        dest: "public/font/",
                         expand: true
                     }
                 ]
