@@ -9,3 +9,5 @@ build.xml
 
 component
 node_modules
+
+public/built

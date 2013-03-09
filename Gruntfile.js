@@ -14,14 +14,14 @@ module.exports = function (grunt) {
     // --- Grunt Tasks
     grunt.initConfig({
         concat: {
-            "built/internal.js": project.js.internal,
-            "built/external.js": project.js.external
+            "public/built/internal.js": project.js.internal,
+            "public/built/external.js": project.js.external
         },
         copy: {
             all: {
                 files: [
                     {
-                        cwd: "components/wwt-bootstrap/font/",
+                        cwd: "components/bootstrap-font-awesome/font/",
                         src: ['**'],
                         dest: "public/built/font/",
                         expand: true

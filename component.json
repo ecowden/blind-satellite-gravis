@@ -5,6 +5,7 @@
         "angular": "~1.0.5",
         "angular-mocks": "~1.0.5",
         "bootstrap-font-awesome": "https://github.com/ecowden/bootstrap-font-awesome.git",
-        "jquery": "~1.9.1"
+        "jquery": "~1.9.1",
+        "sugar": "~1"
     }
 }

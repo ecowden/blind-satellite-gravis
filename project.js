@@ -5,6 +5,7 @@ module.exports = {
         ],
         'external': [
             'components/angular/angular.js',
+            'components/sugar/release/sugar.min.js',
             'components/bootstrap-font-awesome/js/bootstrap.js'
         ],
         'test': [
