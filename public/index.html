@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="blind-satellite">
 <head>
 
     <!-- start: Meta -->
@@ -24,7 +24,7 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-<body>
+<body ng-controller="indexCtrl">
 
 <!--start: Container -->
 <div class="container">
@@ -53,11 +53,7 @@
         <div class="span12">
             <div class="panel">
                 <ul>
-                    <li>Songs!</li>
-                    <li>Songs!</li>
-                    <li>Songs!</li>
-                    <li>Songs!</li>
-                    <li>Songs!</li>
+                    <li ng-repeat="song in songs">{{song.title}}</li>
                 </ul>
             </div>
         </div>
@@ -155,7 +151,6 @@
 
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="built/external.js"></script>
 <script src="built/internal.js"></script>
 <!-- end: Java Script -->

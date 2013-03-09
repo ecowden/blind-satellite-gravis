@@ -5,12 +5,13 @@ module.exports = {
         ],
         'external': [
             'components/angular/angular.js',
-            'components/sugar/release/sugar.min.js',
-            'components/bootstrap-font-awesome/js/bootstrap.js'
+            'components/sugar/release/sugar.min.js'
         ],
-        'test': [
-            'components/angular-mocks/angular-mocks.js',
-            'components/jquery/jquery.js'
+        'internal-test': [
+            'test/unit/**/*.js'
+        ],
+        'external-test': [
+            'components/angular-mocks/angular-mocks.js'
         ]
     },
 
