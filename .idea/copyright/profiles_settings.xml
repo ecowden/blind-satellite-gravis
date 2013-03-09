@@ -1,5 +1,5 @@
 <component name="CopyrightManager">
-  <settings default="blind-satellite">
+  <settings default="">
     <module2copyright>
       <element module="All" copyright="blind-satellite" />
     </module2copyright>
